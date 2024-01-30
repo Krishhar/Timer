@@ -1,0 +1,159 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,body
+{
+    margin: 0;
+    height: 100%;
+}
+
+tr,
+td,
+th,
+input {
+    padding: 20px;
+    font-size: larger;
+    padding: 10px;
+    width: 400px;
+}
+
+tr {
+    background-color: rgba(0, 255, 145, 0.345);
+}
+
+td {
+    overflow: hidden;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+input {
+    background-color: black;
+    border: 2px solid rgb(0, 190, 54);
+    color: wheat;
+    width: 400px;
+}
+
+.d,
+.t {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#btn1 {
+    padding: 20px;
+    background-color: rgb(0, 190, 54);
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+.btn2 {
+    margin: 20px;
+    display: flex;
+    width: fit-content;
+    font-size: x-large;
+    color: aliceblue;
+
+
+}
+
+
+.f {
+    display: flex;
+    justify-content: space-around;
+}
+
+.twoT {
+    display: flex;
+    flex-direction: column;
+}
+
+#stt {
+    background-color: rgba(3, 191, 3, 0.811);
+    font-size: large;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid rrgb(2, 7, 4);
+    border-radius: 50%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+table {
+    border: 2px solid  rgba(3, 191, 3, 0.811);
+    table-layout: auto;
+    max-width: 500px;
+
+}
+
+.head {
+    text-align: center;
+    color: aqua;
+    text-decoration: underline;
+}
+
+.bd {
+    border: 10px double aqua;
+    background-color: black;
+    height: 98%;
+    
+}
+
+th {
+    background-color: rgb(0, 190, 54);
+    color: rgba(252, 252, 252, 0.831);
+    padding: 10px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1080px){
+    
+    .bd
+    {
+        display: block;
+    }
+    .head
+    {
+        display: block;
+    }
+
+    input,stt
+    {
+        margin: 5px 0;
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .btn2
+    {
+        display: flex;
+       text-align: center;
+    }
+
+    .hrs,.min,.sec
+    {
+        display: block;
+    }
+
+    .btn-w
+    {
+        display: block;
+        text-align: center;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .f
+    {
+        display: block;
+    }
+    
+
+
+
+}
