@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Time Tracker</title>
+    <link rel="stylesheet" href="table.css">
+    <link rel="icon" type="image/x-icon" href="stopwatch.png">
+</head>
+
+<body>  
+    <div class="bd">
+        <br><br><br>
+        <h1 class="head">Time Tracker</h1>
+        <br><br><br>
+        <div class="f">
+            <div class="twoT">
+                <div class="d">
+                    <div>
+                        <input type="text" placeholder="Task" id="task">
+                        <br><br>
+                        <input type="text" placeholder="Description" id="desc">
+                        <br><br>
+                    </div>
+                </div>
+                <div class="btn2">
+                    <button id="stt">start</button><br><br> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <p id="hrs">00</p>&nbsp;<p>:</p>
+                    <p id="min">00</p>&nbsp;<p>:</p>
+                    <p id="sec">00</p>&nbsp;
+                    <!-- <button id="stp">Stop Timer</button> -->
+                </div>
+                
+                    <img src="./loading-bg.gif"height="400px" width="400px">
+                
+            </div>
+            <div class="btn-w">
+                <div class="t">
+                    <table border="1" id="tab">
+                        <tr>
+                            <th>Task</th>
+                            <th>Description</th>
+                            <th>Duration</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="timer2.js"></script>
+
+</html>
