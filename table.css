@@ -148,6 +148,15 @@ th {
         width: 100%;
     }
 
+    td
+    {
+        color: white;
+    }
+    tr 
+    {
+        background-color: black;
+    }
+
     .f
     {
         display: block;
